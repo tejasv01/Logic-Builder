@@ -58,7 +58,7 @@ A core engineering requirement of this project is maintaining strict independenc
 
 ### 3.2 Class Diagram (Mermaid)
 
-```
+```mermaid
 classDiagram
     direction TB
 
@@ -142,7 +142,7 @@ classDiagram
 
 ### 3.3 Sequence Diagram: Mouse Drag $\rightarrow$ Tool $\rightarrow$ Command $\rightarrow$ Circuit $\rightarrow$ Repaint
 
-```
+```mermaid
 sequenceDiagram
     actor User
     participant Canvas as CircuitCanvasPanel
